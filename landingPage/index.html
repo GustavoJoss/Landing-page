@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <nav id="navbar">
+                <i class="fa-solid fa-utensils" id="nav_logo"> el raton </i>
+
+                <ul id="nav_list">
+                    <li class="nav_item active">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#menu">Cardapio</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#testimonials">Avaliações</a>
+                    </li>
+                </ul>
+
+                <button class="btn-default">
+                    Faça seu pedido
+                </button>
+
+                <button id="mobile_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+
+            <div id="mobile_menu">
+
+                <ul id="mobile_nav_list">
+
+                    <li class="nav_item">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#menu">Cardapio</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#testimonials">Avaliações</a>
+                    </li>
+
+                </ul>
+
+                <button class="btn-default">
+                    Faça seu pedido
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="home" class="section">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Comida de 
+                    <span>qualidade</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Voluptatibus veritatis vero ea quibusdam 
+                    excepturi hic eligendi odit harum, nihil atque pariatur 
+                    facere minus obcaecati totam voluptas dolorum, quis sed 
+                    ullam?
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="a" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="tel:+40028922" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (37)4002-8922
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div  id="banner">
+                <img src="src/images/RatoBranco.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu" class="section">
+            <h2 class="section-title">Cardapio</h2>
+            <h3 class="section-subtitle">Pratos de El Raton</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/burguer.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Raton Burguer
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$25,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/espeto.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Raton Espeto
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$25,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/sopa.webp" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Sopa do Raton
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$25,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/ratata.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Ratatuille
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$25,99</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section">
+            <img src="src/images/ratoChapeu.png" alt="" class="testimonial_chef">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitles">
+                    O que os clientes falam sobre o El Raton
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                El Ratinho
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Quisquam, voluptates. Quisquam, voluptates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                El Ratinho
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Quisquam, voluptates. Quisquam, voluptates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy; 2024 El Raton
+            </span>
+
+            <div class="social-media-buttons">
+                
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
